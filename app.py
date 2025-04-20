@@ -4,15 +4,9 @@ import json
 import matplotlib.pyplot as plt
 from google import genai
 
-# Fetch Gemini API key from secrets.toml
-api_key = st.secrets["gemini"]["api_key"]
-
-# Initialize your client
-client = genai.Client(api_key=api_key)
-
 
 # --- Gemini API Setup ---
-api_key = "temp key"  # Replace with your Gemini API key
+api_key = "AIzaSyClsE8erGbM8ucNyMGY0YrGNwfZCrlWBz4"  # Replace with your Gemini API key
 client = genai.Client(api_key=api_key)
 
 # --- Helper Functions ---
